@@ -45,5 +45,5 @@ TBD, is possible obviously to run these commands in DOCKER just using the micros
 
 ### Why
 
-the convenience of a single script makes possibly F# a great language for true microservices, ideally all isolated and testable with their own public openapi specification, a monorepo or many repos you can decide for your own. 
+The convenience of a single script app makes it possible for F# to shine as a great language for true microservices. All well isolated and testable from the public openapi specification, a monorepo or many repos you can decide for your own. 
 
