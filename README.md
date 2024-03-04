@@ -1,4 +1,4 @@
-# F# interactive minimal web api template (.fsx)
+# F# interactive minimal web api template (.fsx) 🦔
 
 ![alt text](image.png)
 
