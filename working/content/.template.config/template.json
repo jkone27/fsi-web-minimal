@@ -1,0 +1,33 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Me",
+    "classifications": [ "Common", "Code" ],
+    "identity": "FsiWebMinimal",
+    "name": "F# interactive web minimal API template",
+    "shortName": "fsi-web-minimal",
+    "tags": {
+      "language": "F#",
+      "type": "item"
+    },
+    "symbols": {
+      "FileName":{
+        "type": "parameter",
+        "description": "The name of the code file and class.",
+        "datatype": "text",
+        "fileRename": "script",
+        "defaultValue": "script"
+      }
+    },
+    "sources": [
+      {
+        "include": [
+          ".gitignore",
+          "*.fsx",
+          "README.md"
+        ],
+        "exclude": [
+          "generate-sdk-references.fsx"
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,63 @@
+openapi: 3.0.1
+info:
+  title: fsi
+  version: '1.0'
+paths:
+  '/api/hellos/{id}':
+    get:
+      tags:
+        - API
+      operationId: GetHellos
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+            format: int32
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Int322009853681'
+  /api/hellos:
+    post:
+      tags:
+        - API
+      operationId: AddHello
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Int32String3366518590'
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Int322009853681'
+components:
+  schemas:
+    Int322009853681:
+      type: object
+      properties:
+        bye:
+          type: integer
+          format: int32
+      additionalProperties: false
+    Int32String3366518590:
+      type: object
+      properties:
+        bye:
+          type: integer
+          format: int32
+        hello:
+          type: string
+          nullable: true
+      additionalProperties: false
+tags:
+  - name: My API
+    description: My API does something

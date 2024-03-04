@@ -1,0 +1,5 @@
+./runtime-scripts
+./openapi.yaml
+./generate-sdl-reference.fsx
+/bin
+/obj
