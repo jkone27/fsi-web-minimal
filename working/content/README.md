@@ -1,4 +1,4 @@
-# F# interactive Web .NET minimal template (.fsx)
+# F# interactive minimal web api template (.fsx)
 
 The `fsi-web-minimal` .NET template can be used to generate F# minimal API apps using only .fsx scripts, without a full `.fsproj`.
 

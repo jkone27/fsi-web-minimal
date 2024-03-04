@@ -1,10 +1,8 @@
-# F# interactive minimal web api template (.fsx)
+# F# interactive Web .NET minimal template (.fsx)
 
-![alt text](image.png)
+The `fsi-web-minimal` .NET template can be used to generate F# minimal API apps using only .fsx scripts, without a full `.fsproj`.
 
-The `fsi-web-minimal` .NET template can be used to generate F# minimal API apps using only .fsx scripts, without a full `.fsproj`, but only with `.fsx` files.
-
-## installation
+## Install the template
 
 ```
 cd working/content
@@ -12,7 +10,8 @@ dotnet new install .
 dotnet new fsi-web-minimal
 ```
 
-## Run
+
+## How to build and run
 
 run the download script
 `dotnet fsi downloadScripts.fsx`
@@ -28,7 +27,7 @@ then run to start the server, listening to port 5000.
 
 navigate to `http://localhost/swagger` to check the OpenApi spec
 
-## Testing 
+## Testing via OpenApi and SwaggerProvider
 
 to live test the api, download the openapi spec while your app is running, for convenience the `test.fsx` script includes also such utility function, remember to run this script your server must be running and serving the openapi/swagger metadata, it won't work if you didn't start your script yet.
 
@@ -36,7 +35,6 @@ to live test the api, download the openapi spec while your app is running, for c
 
 then normally run the test `dotnet fsi test.fsx` 
 
-the test is performed against the OpenApi contract using the awesome [SwaggerProvider](https://fsprojects.github.io/SwaggerProvider/#/)
 you should see in your server terminal window the endpoints being hit, and you will get a print result for your test endpoint invocation.
 
 ### DevContainer and DOCKER
