@@ -26,7 +26,7 @@ then run to start the server, listening to port 5000.
 
 ## OpenApi
 
-navigate to `http://localhost/swagger` to check the OpenApi spec
+navigate to `http://localhost:5000/swagger` to check the OpenApi spec
 
 ## Testing 
 
