@@ -1,8 +1,11 @@
 # F# interactive minimal web api template (.fsx) 🦔
 
-![alt text](image.png)
+<img src="https://github.com/jkone27/fsi-web-minimal/assets/10419217/7bca3c61-b9e7-48f5-b153-fdafd6cc1edd" alt="a crystal hedhehog" width="50%" height="auto">
 
 The `fsi-web-minimal` .NET template can be used to generate F# minimal API apps using only .fsx scripts, without a full `.fsproj`, but only with `.fsx` files.
+An utility html dsl view engine [Feliz.ViewEngine](https://github.com/dbrattli/Feliz.ViewEngine) is provided as a dependency, but can be removed or replaced with other view engines.
+
+Waiting for the official [F# mascotte announcement](https://sergeytihon.com/2024/03/02/f-weekly-9-2024-should-hedgehog-be-an-official-f-mascot/) yet.
 
 ## installation
 
@@ -11,6 +14,10 @@ cd working/content
 dotnet new install .
 dotnet new fsi-web-minimal
 ```
+
+you should get a directory structure like the one below (same as `test` folder).
+
+![alt text](image.png)
 
 ## Run
 
