@@ -17,7 +17,7 @@ dotnet new fsi-web-minimal
 
 you should get a directory structure like the one below (same as `test` folder).
 
-![alt text](image.png)
+<img src="image.png" alt="dir tree" width="60%" height="auto" />
 
 ## Run
 
